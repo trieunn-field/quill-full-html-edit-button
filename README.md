@@ -1,4 +1,4 @@
-# quill-html-edit-button
+# quill-full-html-edit-button
 
 <!-- [START badges] -->
 

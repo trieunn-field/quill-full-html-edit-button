@@ -1,11 +1,11 @@
 {
-  "name": "quill-html-edit-button",
+  "name": "quill-full-html-edit-button",
   "description": "A Quill rich text editor Module which adds an html edit button to the quill editor",
   "version": "0.0.0",
   "main": "dist/quill.htmlEditButton.min.js",
   "types": "types/index.d.ts",
-  "repository": "https://github.com/benwinding/quill-html-edit-button",
-  "author": "Ben Winding <ben.winding@gmail.com>",
+  "repository": "https://github.com/trieunn-field/quill-full-html-edit-button",
+  "author": "TrieuNN <trieu.nguyennhu@gmail.com>",
   "license": "MIT",
   "scripts": {
     "watch": "webpack --watch --progress",
