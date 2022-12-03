@@ -2,7 +2,7 @@ import Quill from "quill/core";
 
 import htmlEditButton from "../../../src/quill.htmlEditButton";
 /* 
-import htmlEditButton from "quill-html-edit-button";
+import htmlEditButton from "quill-full-html-edit-button";
     ^ In production use this
  */
 import Toolbar from "quill/modules/toolbar";

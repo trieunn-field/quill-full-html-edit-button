@@ -6,7 +6,7 @@ export class QuillHtmlLogger {
   }  
 
   prefixString() {
-    return `</> quill-html-edit-button: `;
+    return `</> quill-full-html-edit-button: `;
   }
   get log() {
     if (!this.debug) {

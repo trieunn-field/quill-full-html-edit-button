@@ -2,10 +2,10 @@
 
 <!-- [START badges] -->
 
-[![NPM Version](https://img.shields.io/npm/v/quill-html-edit-button.svg)](https://www.npmjs.com/package/quill-html-edit-button)
-[![License](https://img.shields.io/npm/l/quill-html-edit-button.svg)](https://github.com/benwinding/quill-html-edit-button/blob/master/LICENSE)
-[![Downloads/week](https://img.shields.io/npm/dm/quill-html-edit-button.svg)](https://www.npmjs.com/package/quill-html-edit-button)
-[![Github Issues](https://img.shields.io/github/issues/benwinding/quill-html-edit-button.svg)](https://github.com/benwinding/quill-html-edit-button)
+[![NPM Version](https://img.shields.io/npm/v/quill-full-html-edit-button.svg)](https://www.npmjs.com/package/quill-full-html-edit-button)
+[![License](https://img.shields.io/npm/l/quill-full-html-edit-button.svg)](https://github.com/benwinding/quill-full-html-edit-button/blob/master/LICENSE)
+[![Downloads/week](https://img.shields.io/npm/dm/quill-full-html-edit-button.svg)](https://www.npmjs.com/package/quill-full-html-edit-button)
+[![Github Issues](https://img.shields.io/github/issues/benwinding/quill-full-html-edit-button.svg)](https://github.com/benwinding/quill-full-html-edit-button)
 
 <!-- [END badges] -->
 
@@ -13,15 +13,15 @@ Quill.js Module which allows you to quickly view/edit the HTML in the editor
 
 ![Demo](https://user-images.githubusercontent.com/664714/93285035-f7f44e80-f7a1-11ea-83c7-59e151c53c06.gif)
 
-- [Live Demo (webpack javascript)](https://benwinding.github.io/quill-html-edit-button/javascript/) - also > [Source Code](https://github.com/benwinding/quill-html-edit-button/tree/master/demos/javascript)
-- [Live Demo (webpack typescript)](https://benwinding.github.io/quill-html-edit-button/typescript/) - also > [Source Code](https://github.com/benwinding/quill-html-edit-button/tree/master/demos/typescript)
-- [Live Demo (webpack vue)](https://benwinding.github.io/quill-html-edit-button/vue/) - also > [Source Code](https://github.com/benwinding/quill-html-edit-button/tree/master/demos/vue)
-- [Live Demo (script tags quill-1.x)](https://benwinding.github.io/quill-html-edit-button/script-tags/demo-quill-1.x.html) - also > [Source Code](https://github.com/benwinding/quill-html-edit-button/tree/master/demos/script-tags/demo-quill-1.x.html)
-- [Live Demo (script tags quill-2.x) With Tables!](https://benwinding.github.io/quill-html-edit-button/script-tags/demo-quill-2.x.html) - also > [Source Code](https://github.com/benwinding/quill-html-edit-button/tree/master/demos/script-tags/demo-quill-2.x.html)
+- [Live Demo (webpack javascript)](https://benwinding.github.io/quill-full-html-edit-button/javascript/) - also > [Source Code](https://github.com/benwinding/quill-full-html-edit-button/tree/master/demos/javascript)
+- [Live Demo (webpack typescript)](https://benwinding.github.io/quill-full-html-edit-button/typescript/) - also > [Source Code](https://github.com/benwinding/quill-full-html-edit-button/tree/master/demos/typescript)
+- [Live Demo (webpack vue)](https://benwinding.github.io/quill-full-html-edit-button/vue/) - also > [Source Code](https://github.com/benwinding/quill-full-html-edit-button/tree/master/demos/vue)
+- [Live Demo (script tags quill-1.x)](https://benwinding.github.io/quill-full-html-edit-button/script-tags/demo-quill-1.x.html) - also > [Source Code](https://github.com/benwinding/quill-full-html-edit-button/tree/master/demos/script-tags/demo-quill-1.x.html)
+- [Live Demo (script tags quill-2.x) With Tables!](https://benwinding.github.io/quill-full-html-edit-button/script-tags/demo-quill-2.x.html) - also > [Source Code](https://github.com/benwinding/quill-full-html-edit-button/tree/master/demos/script-tags/demo-quill-2.x.html)
 
 ## Install
 
-`yarn add quill-html-edit-button`
+`yarn add quill-full-html-edit-button`
 
 ## Quickstart (Javascript)
 
@@ -30,7 +30,7 @@ import Quill from 'quill/core';
 import Toolbar from 'quill/modules/toolbar';
 import Snow from 'quill/themes/snow';
 
-import htmlEditButton from "quill-html-edit-button";
+import htmlEditButton from "quill-full-html-edit-button";
 
 Quill.register({
   'modules/toolbar': Toolbar,
@@ -51,8 +51,8 @@ const quill = new Quill(editor, {
 
 Due to Quill's implementation, typescript integration is not trivial:
 
-- Follow the demo example here [`demos/typescript/src/index.ts`](https://github.com/benwinding/quill-html-edit-button/blob/master/demos/typescript/src/index.ts)
-- The file [`setup.js`](https://github.com/benwinding/quill-html-edit-button/blob/master/demos/typescript/src/setup.js`) is to use the library without types (as they aren't implemented with quill modules).
+- Follow the demo example here [`demos/typescript/src/index.ts`](https://github.com/benwinding/quill-full-html-edit-button/blob/master/demos/typescript/src/index.ts)
+- The file [`setup.js`](https://github.com/benwinding/quill-full-html-edit-button/blob/master/demos/typescript/src/setup.js`) is to use the library without types (as they aren't implemented with quill modules).
 - Your `tsconfig.json` needs the following properties, to prevent errors:
 ``` json
   "compilerOptions": {
@@ -66,7 +66,7 @@ Due to Quill's implementation, typescript integration is not trivial:
 
 ``` html
 <script src="https://unpkg.com/quill@1.3.7/dist/quill.js"></script>
-<script src="https://unpkg.com/quill-html-edit-button@2.2.7/dist/quill.htmlEditButton.min.js"></script>
+<script src="https://unpkg.com/quill-full-html-edit-button@2.2.7/dist/quill.htmlEditButton.min.js"></script>
 <script>
   Quill.register("modules/htmlEditButton", htmlEditButton);
   const quill = new Quill(editor, {

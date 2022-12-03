@@ -8,7 +8,7 @@ import { ref, defineComponent } from 'vue'
 import { Delta, QuillEditor } from '@vueup/vue-quill'
 
 import htmlEditButton from "../../../src/quill.htmlEditButton";
-// import htmlEditButton from "quill-html-edit-button";
+// import htmlEditButton from "quill-full-html-edit-button";
 //     ^ In production use this
 
 export default defineComponent({
