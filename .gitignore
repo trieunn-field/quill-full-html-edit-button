@@ -4,3 +4,4 @@ dist
 types
 *.DS_STORE
 *.tgz
+package-lock.json
